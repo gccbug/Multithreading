@@ -14,7 +14,6 @@
 		61AB10CC1D26486800FE9ACD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61AB10CB1D26486800FE9ACD /* Assets.xcassets */; };
 		61AB10CF1D26486800FE9ACD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61AB10CD1D26486800FE9ACD /* LaunchScreen.storyboard */; };
 		61AB10DA1D26486800FE9ACD /* MultithreadingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61AB10D91D26486800FE9ACD /* MultithreadingTests.m */; };
-		61AB10E81D2648F600FE9ACD /* SubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61AB10E71D2648F600FE9ACD /* SubViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +40,6 @@
 		61AB10D51D26486800FE9ACD /* MultithreadingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultithreadingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		61AB10D91D26486800FE9ACD /* MultithreadingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultithreadingTests.m; sourceTree = "<group>"; };
 		61AB10DB1D26486800FE9ACD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		61AB10E61D2648F600FE9ACD /* SubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubViewController.h; sourceTree = "<group>"; };
-		61AB10E71D2648F600FE9ACD /* SubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,8 +90,6 @@
 				61AB10CD1D26486800FE9ACD /* LaunchScreen.storyboard */,
 				61AB10D01D26486800FE9ACD /* Info.plist */,
 				61AB10BF1D26486800FE9ACD /* Supporting Files */,
-				61AB10E61D2648F600FE9ACD /* SubViewController.h */,
-				61AB10E71D2648F600FE9ACD /* SubViewController.m */,
 			);
 			path = Multithreading;
 			sourceTree = "<group>";
@@ -221,7 +216,6 @@
 				61AB10C71D26486800FE9ACD /* ViewController.m in Sources */,
 				61AB10C41D26486800FE9ACD /* AppDelegate.m in Sources */,
 				61AB10C11D26486800FE9ACD /* main.m in Sources */,
-				61AB10E81D2648F600FE9ACD /* SubViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
